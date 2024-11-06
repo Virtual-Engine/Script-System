@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="script\manager\manager.cpp" />
+    <ClCompile Include="script\pool\pool.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.hpp" />
+    <ClInclude Include="script\script.hpp" />
+    <ClInclude Include="script\manager\manager.hpp" />
+    <ClInclude Include="script\pool\pool.hpp" />
+  </ItemGroup>
+</Project>
